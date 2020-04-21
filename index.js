@@ -67,6 +67,6 @@ app.post('/decode', upload.single('decodeFileInput'), function(req, res) {
 
 });
 
-app.listen(5555, function() {
+app.listen(80, function() {
 	console.log('App running on port 5555');
 });
